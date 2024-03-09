@@ -6,21 +6,21 @@ import Shop from "../pages/Shop/Shop";
 
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Root></Root>,
-      errorElement: <Error></Error>,
-      children: [
-        {
-          path: "/",
-          element: <Home></Home>
-        },
-        {
-          path:"/shop",
-          element:<Shop></Shop>
-        }
-      ],
-    },
-  ]);
+  {
+    path: "/",
+    element: <Root></Root>,
+    errorElement: <Error></Error>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>
+      },
+      {
+        path: "/shop",
+        element: <Shop></Shop>
+      }
+    ],
+  },
+]);
 
 export default router;

@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li className='px-2 font-medium'><NavLink
+                    <li className='px-2 font-medium text-orange-500'><NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
@@ -59,7 +59,7 @@ const Navbar = () => {
                     >
                         Home
                     </NavLink></li>
-                    <li className='px-2 font-medium'><NavLink
+                    <li className='px-2 font-medium text-orange-500'><NavLink
                         to="/shop"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
@@ -67,7 +67,7 @@ const Navbar = () => {
                     >
                         Shop
                     </NavLink></li>
-                    <li className='px-2 font-medium'><NavLink
+                    <li className='px-2 font-medium text-orange-500'><NavLink
                         to="/blog"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
@@ -75,7 +75,7 @@ const Navbar = () => {
                     >
                         Blog
                     </NavLink></li>
-                    <li className='px-2 font-medium'><NavLink
+                    <li className='px-2 font-medium text-orange-500'><NavLink
                         to="/about"
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
@@ -86,9 +86,6 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className="form-control pr-5">
-                    <input type="text" placeholder="Search" className="input input-bordered focus:outline-none w-24 md:w-auto" />
-                </div>
                 <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
