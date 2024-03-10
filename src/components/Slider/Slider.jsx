@@ -10,14 +10,16 @@ import slider5 from '../../assets/pet (5).jpg';
 import slider6 from '../../assets/pet (6).jpg';
 import slider7 from '../../assets/pet (7).jpg';
 import slider8 from '../../assets/pet (8).jpg';
+import banner from '../../assets/banner3.jpg';
+import banner2 from '../../assets/banner5.jpg';
 
 
 const Slider = () => {
     return (
-        <div className='lg:w-3/4 mx-auto pb-16 lg:px-0 px-5'>
-            <div className='lg:py-10 md:py-7 py-5'>
+        <div className='lg:w-3/4 mx-auto py-16 lg:px-0 px-5'>
+            {/* <div className='lg:py-10 md:py-7 py-5'>
                 <h1 className='text-center lg:text-3xl md:text-2xl font-bold uppercase'>Most Selling Pets</h1>
-            </div>
+            </div> */}
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -36,6 +38,10 @@ const Slider = () => {
                 <SwiperSlide><img src={slider7} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={slider8} alt="" /></SwiperSlide>
             </Swiper>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-7 md:gap-7'>
+                <img className='w-full pt-6' src={banner} alt="" />
+                <img className='w-full pt-6' src={banner2} alt="" />
+            </div>
         </div>
     );
 };

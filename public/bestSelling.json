@@ -1,0 +1,58 @@
+[
+    {
+        "image": "https://i.ibb.co/bPf4n3K/product-1.jpg",
+        "name": "Product 1",
+        "price": "$10",
+        "review": "4.5 stars",
+        "description": "Description of Product 1"
+    },
+    {
+        "image": "https://i.ibb.co/F5fN2JQ/product-2.jpg",
+        "name": "Product 2",
+        "price": "$15",
+        "review": "4 stars",
+        "description": "Description of Product 2"
+    },
+    {
+        "image": "https://i.ibb.co/myWdtV9/product-3.jpg",
+        "name": "Product 3",
+        "price": "$20",
+        "review": "5 stars",
+        "description": "Description of Product 3"
+    },
+    {
+        "image": " https://i.ibb.co/q5Fwg6F/product-4.jpg",
+        "name": "Product 4",
+        "price": "$25",
+        "review": "4.8 stars",
+        "description": "Description of Product 4"
+    },
+    {
+        "image": " https://i.ibb.co/v39Pkf1/product-5.jpg",
+        "name": "Product 5",
+        "price": "$30",
+        "review": "4.2 stars",
+        "description": "Description of Product 5"
+    },
+    {
+        "image": " https://i.ibb.co/jVqx2D9/product-6.jpg",
+        "name": "Product 6",
+        "price": "$35",
+        "review": "4.7 stars",
+        "description": "Description of Product 6"
+    },
+    {
+        "image": " https://i.ibb.co/p1W4nsM/product-7.jpg",
+        "name": "Product 7",
+        "price": "$40",
+        "review": "4.9 stars",
+        "description": "Description of Product 7"
+    },
+    {
+        "image": "https://i.ibb.co/s6g1zvd/product-8.jpg",
+        "name": "Product 8",
+        "price": "$45",
+        "review": "4.3 stars",
+        "description": "Description of Product 8"
+    }
+]
