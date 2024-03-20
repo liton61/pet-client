@@ -1,0 +1,52 @@
+[
+    {
+        "image": "https://i.ibb.co/QYj5Sgw/categories-1.jpg",
+        "category": "cat",
+        "name": "Fluffy"
+    },
+    {
+        "image": "https://i.ibb.co/h2FVmcK/categories-2.jpg",
+        "category": "dog",
+        "name": "Buddy"
+    },
+    {
+        "image": "https://i.ibb.co/bzCT5y3/categories-3.jpg",
+        "category": "hamster",
+        "name": "Nibbles"
+    },
+    {
+        "image": "https://i.ibb.co/fS80MQt/categories-4.jpg",
+        "category": "rabbit",
+        "name": "Thumper"
+    },
+    {
+        "image": "https://i.ibb.co/HXX54M9/categories-5.jpg",
+        "category": "fish",
+        "name": "Goldie"
+    },
+    {
+        "image": "https://i.ibb.co/z83BWz3/categories-6.jpg",
+        "category": "bird",
+        "name": "Polly"
+    },
+    {
+        "image": "https://i.ibb.co/HHfxD3g/categories-7.jpg",
+        "category": "turtle",
+        "name": "Shelly"
+    },
+    {
+        "image": "https://i.ibb.co/qk4w0v5/categories-8.jpg",
+        "category": "guinea pig",
+        "name": "Whiskers"
+    },
+    {
+        "image": "https://i.ibb.co/JmJNwBV/categories-9.jpg",
+        "category": "snake",
+        "name": "Slither"
+    },
+    {
+        "image": "https://i.ibb.co/HF34XFh/categories-10.jpg",
+        "category": "lizard",
+        "name": "Spike"
+    }
+]

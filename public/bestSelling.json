@@ -54,5 +54,12 @@
         "price": "$45",
         "review": "4.3 stars",
         "description": "Description of Product 8"
+    },
+    {
+        "image": "https://i.ibb.co/s6g1zvd/product-8.jpg",
+        "name": "Product 8",
+        "price": "$45",
+        "review": "4.3 stars",
+        "description": "Description of Product 8"
     }
 ]
